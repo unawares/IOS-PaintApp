@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D33BD1F23407BC800E44BE8 /* CustomDraw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D33BD1E23407BC800E44BE8 /* CustomDraw.swift */; };
 		0DC65860233F588D008C0D7B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC6585F233F588D008C0D7B /* AppDelegate.swift */; };
 		0DC65862233F588D008C0D7B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC65861233F588D008C0D7B /* SceneDelegate.swift */; };
 		0DC65864233F588D008C0D7B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC65863233F588D008C0D7B /* ViewController.swift */; };
@@ -15,6 +16,17 @@
 		0DC6586C233F588E008C0D7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DC6586A233F588E008C0D7B /* LaunchScreen.storyboard */; };
 		0DC65877233F588E008C0D7B /* PaintAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC65876233F588E008C0D7B /* PaintAppTests.swift */; };
 		0DC65882233F588F008C0D7B /* PaintAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC65881233F588F008C0D7B /* PaintAppUITests.swift */; };
+		0DC65891233F5A0E008C0D7B /* BoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC65890233F5A0E008C0D7B /* BoardView.swift */; };
+		0DC65894233F61BB008C0D7B /* Circle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC65893233F61BB008C0D7B /* Circle.swift */; };
+		0DC65896233F61C9008C0D7B /* Rectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC65895233F61C9008C0D7B /* Rectangle.swift */; };
+		0DC65898233F61DB008C0D7B /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC65897233F61DB008C0D7B /* Line.swift */; };
+		0DC6589A233F61E8008C0D7B /* RightTriangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC65899233F61E8008C0D7B /* RightTriangle.swift */; };
+		0DC6589C233F61F4008C0D7B /* Pen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC6589B233F61F4008C0D7B /* Pen.swift */; };
+		0DC6589E233F624A008C0D7B /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC6589D233F624A008C0D7B /* Shape.swift */; };
+		0DC658A0233F64EE008C0D7B /* Drawable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC6589F233F64EE008C0D7B /* Drawable.swift */; };
+		0DC658A2233F6C7D008C0D7B /* Path.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC658A1233F6C7D008C0D7B /* Path.swift */; };
+		0DC658A4233F85D2008C0D7B /* Shapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC658A3233F85D2008C0D7B /* Shapes.swift */; };
+		0DC658A6233FB1BF008C0D7B /* Selection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC658A5233FB1BF008C0D7B /* Selection.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +47,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D33BD1E23407BC800E44BE8 /* CustomDraw.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDraw.swift; sourceTree = "<group>"; };
 		0DC6585C233F588D008C0D7B /* PaintApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaintApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DC6585F233F588D008C0D7B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0DC65861233F588D008C0D7B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +62,17 @@
 		0DC6587D233F588F008C0D7B /* PaintAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaintAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DC65881233F588F008C0D7B /* PaintAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaintAppUITests.swift; sourceTree = "<group>"; };
 		0DC65883233F588F008C0D7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DC65890233F5A0E008C0D7B /* BoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardView.swift; sourceTree = "<group>"; };
+		0DC65893233F61BB008C0D7B /* Circle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Circle.swift; sourceTree = "<group>"; };
+		0DC65895233F61C9008C0D7B /* Rectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rectangle.swift; sourceTree = "<group>"; };
+		0DC65897233F61DB008C0D7B /* Line.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Line.swift; sourceTree = "<group>"; };
+		0DC65899233F61E8008C0D7B /* RightTriangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RightTriangle.swift; sourceTree = "<group>"; };
+		0DC6589B233F61F4008C0D7B /* Pen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pen.swift; sourceTree = "<group>"; };
+		0DC6589D233F624A008C0D7B /* Shape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
+		0DC6589F233F64EE008C0D7B /* Drawable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drawable.swift; sourceTree = "<group>"; };
+		0DC658A1233F6C7D008C0D7B /* Path.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Path.swift; sourceTree = "<group>"; };
+		0DC658A3233F85D2008C0D7B /* Shapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shapes.swift; sourceTree = "<group>"; };
+		0DC658A5233FB1BF008C0D7B /* Selection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Selection.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +123,11 @@
 		0DC6585E233F588D008C0D7B /* PaintApp */ = {
 			isa = PBXGroup;
 			children = (
-				0DC6585F233F588D008C0D7B /* AppDelegate.swift */,
-				0DC65861233F588D008C0D7B /* SceneDelegate.swift */,
-				0DC65863233F588D008C0D7B /* ViewController.swift */,
 				0DC65865233F588D008C0D7B /* Main.storyboard */,
-				0DC65868233F588E008C0D7B /* Assets.xcassets */,
-				0DC6586A233F588E008C0D7B /* LaunchScreen.storyboard */,
+				0DC65863233F588D008C0D7B /* ViewController.swift */,
+				0DC65890233F5A0E008C0D7B /* BoardView.swift */,
+				0DC65892233F617A008C0D7B /* Models */,
+				0DC6588F233F58B5008C0D7B /* Supporting Files */,
 				0DC6586D233F588E008C0D7B /* Info.plist */,
 			);
 			path = PaintApp;
@@ -126,6 +149,35 @@
 				0DC65883233F588F008C0D7B /* Info.plist */,
 			);
 			path = PaintAppUITests;
+			sourceTree = "<group>";
+		};
+		0DC6588F233F58B5008C0D7B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0DC65868233F588E008C0D7B /* Assets.xcassets */,
+				0DC6585F233F588D008C0D7B /* AppDelegate.swift */,
+				0DC65861233F588D008C0D7B /* SceneDelegate.swift */,
+				0DC6586A233F588E008C0D7B /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0DC65892233F617A008C0D7B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0DC658A5233FB1BF008C0D7B /* Selection.swift */,
+				0DC658A3233F85D2008C0D7B /* Shapes.swift */,
+				0DC6589B233F61F4008C0D7B /* Pen.swift */,
+				0DC6589F233F64EE008C0D7B /* Drawable.swift */,
+				0DC6589D233F624A008C0D7B /* Shape.swift */,
+				0DC658A1233F6C7D008C0D7B /* Path.swift */,
+				0DC65893233F61BB008C0D7B /* Circle.swift */,
+				0DC65895233F61C9008C0D7B /* Rectangle.swift */,
+				0DC65897233F61DB008C0D7B /* Line.swift */,
+				0DC65899233F61E8008C0D7B /* RightTriangle.swift */,
+				0D33BD1E23407BC800E44BE8 /* CustomDraw.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,9 +311,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D33BD1F23407BC800E44BE8 /* CustomDraw.swift in Sources */,
+				0DC658A6233FB1BF008C0D7B /* Selection.swift in Sources */,
+				0DC65894233F61BB008C0D7B /* Circle.swift in Sources */,
 				0DC65864233F588D008C0D7B /* ViewController.swift in Sources */,
+				0DC65891233F5A0E008C0D7B /* BoardView.swift in Sources */,
+				0DC6589C233F61F4008C0D7B /* Pen.swift in Sources */,
+				0DC65896233F61C9008C0D7B /* Rectangle.swift in Sources */,
+				0DC6589E233F624A008C0D7B /* Shape.swift in Sources */,
 				0DC65860233F588D008C0D7B /* AppDelegate.swift in Sources */,
+				0DC65898233F61DB008C0D7B /* Line.swift in Sources */,
 				0DC65862233F588D008C0D7B /* SceneDelegate.swift in Sources */,
+				0DC658A0233F64EE008C0D7B /* Drawable.swift in Sources */,
+				0DC658A4233F85D2008C0D7B /* Shapes.swift in Sources */,
+				0DC658A2233F6C7D008C0D7B /* Path.swift in Sources */,
+				0DC6589A233F61E8008C0D7B /* RightTriangle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
